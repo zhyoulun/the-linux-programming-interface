@@ -1,8 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
-#include <string.h>
-#include <errno.h>
-#include <stdlib.h>
+#include "error_functions.h"
 
 static void outputError(int useError, int err, int flushStdout, const char *format, va_list ap) {
     const int SIZE = 500;

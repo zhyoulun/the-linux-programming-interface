@@ -1,0 +1,4 @@
+## environment
+
+- mac
+- clion
